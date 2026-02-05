@@ -107,6 +107,9 @@ nav {
     color: var(--deep-navy);
     margin: auto;
 }
+.skip-link p {
+    padding: 0;
+}
 .skip-link a:hover {
     color: white;
 }
