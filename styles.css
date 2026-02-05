@@ -106,7 +106,7 @@ nav {
   background: var(--ocean-blue);
   stroke: white;
   color: var(--deep-navy);
-  left: 50%;
+  left: 10%;
   margin: auto;
   padding: 16px 20px;
   position: absolute;
