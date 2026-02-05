@@ -103,7 +103,7 @@ nav {
     padding: 1rem;
 }
 .skip-link {
-  background: var(--ocean-blue);
+  background: var(--turqouise-blue);
   stroke: white;
   color: var(--deep-navy);
   left: 10%;
@@ -112,7 +112,7 @@ nav {
   position: absolute;
 }
 .skip-link:hover {
-  color: white
+  color: red
 }
 a#home {
     font-size: 3em;
