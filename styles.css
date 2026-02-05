@@ -103,15 +103,17 @@ nav {
     padding: 1rem;
 }
 .skip-link {
-  background: var(--turqouise-blue);
-  color: var(--deep-navy);
-  left: 5%;
-  margin: auto;
-  padding: 16px 20px;
-  position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: var(--turqouise-blue);
+    color: var(--deep-navy);
+    margin: auto;
+    padding: 16px 20px;
+    position: absolute;
 }
 .skip-link a:hover {
-  color: white;
+    color: white;
 }
 a#home {
     font-size: 3em;
