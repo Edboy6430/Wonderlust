@@ -105,6 +105,7 @@ nav {
 .skip-link {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-around;
     background: var(--turqouise-blue);
     color: var(--deep-navy);
