@@ -111,7 +111,7 @@ nav {
   padding: 16px 20px;
   position: absolute;
 }
-.skip-link:hover {
+.skip-link a:hover {
   color: red
 }
 a#home {
