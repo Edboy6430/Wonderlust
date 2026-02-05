@@ -110,7 +110,6 @@ nav {
     color: var(--deep-navy);
     margin: auto;
     padding: 16px 20px;
-    position: absolute;
 }
 .skip-link a:hover {
     color: white;
