@@ -103,19 +103,12 @@ nav {
     padding: 1rem;
 }
 .skip-link {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     background: var(--turqouise-blue);
     color: var(--deep-navy);
     margin: auto;
 }
 .skip-link a:hover {
     color: white;
-}
-.skip-link p {
-    margin: 0;
-    padding: 0;
 }
 a#home {
     font-size: 3em;
