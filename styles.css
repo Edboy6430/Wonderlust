@@ -104,7 +104,7 @@ nav {
 }
 .skip-link {
   background: #D9D9D9;
-  color: blue;
+  color: var(--deep-navy);
   left: 50%;
   margin: auto;
   padding: 16px 20px;
@@ -113,7 +113,7 @@ nav {
   transition: transform 0.3s;
 }
 .skip-link:hover {
-  transform: translateY(0%);
+  color: white
 }
 a#home {
     font-size: 3em;
