@@ -114,6 +114,10 @@ nav {
 .skip-link a:hover {
     color: white;
 }
+.skip-link p {
+    margin: 0;
+    padding: 0;
+}
 a#home {
     font-size: 3em;
     text-decoration: none;
