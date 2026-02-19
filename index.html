@@ -273,28 +273,30 @@
                 </fieldset>
                 <fieldset id="destination">
                     <legend>Destination<span>*</span></legend>
-                    <select id="select-destination">
-                        <option>Choose</option>
-                        <option>Barcelona</option>
-                        <option>Granada</option>
-                        <option>Ibiza</option>
-                        <option>Madrid</option>
-                        <option>Majorca</option>
-                        <option>Seville</option>
-                        <option>Tenerife</option>
-                        <option>Valencia</option>
-                        <option>Other</option>
+                    <label for="select-destination">Select your Destination</label>
+                    <select name="select-destination" id="select-destination">
+                        <option value="">Choose</option>
+                        <option value="barcelona">Barcelona</option>
+                        <option value="granada">Granada</option>
+                        <option value="ibiza">Ibiza</option>
+                        <option value="madrid">Madrid</option>
+                        <option value="majorca">Majorca</option>
+                        <option value="seville">Seville</option>
+                        <option value="tenerife">Tenerife</option>
+                        <option value="valencia">Valencia</option>
+                        <option value="other">Other</option>
+                        <input type="text" id="other" name="other">
                     </select>
                 </fieldset>
                 <fieldset id="travelTime">
                     <legend>Travel Time<span>*</span></legend>
                     <select id="select-travel-time">
-                        <option>Choose</option>
-                        <option>Fall</option>
-                        <option>Winter</option>
-                        <option>Spring</option>
-                        <option>Summer</option>
-                        <option>Flexible</option>
+                        <option value="">Choose</option>
+                        <option value="">Fall</option>
+                        <option value="">Winter</option>
+                        <option value="">Spring</option>
+                        <option value="">Summer</option>
+                        <option value="">Flexible</option>
                     </select>
                 </fieldset>
                 <input type="submit" value="Submit">
